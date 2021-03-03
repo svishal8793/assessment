@@ -4,6 +4,8 @@ import even_num_list
 
 
 class TestAssignment(unittest.TestCase):
+    """This module is used to test the assignment"""
+
     def test_even_list_num(self):
         lst = even_num_list.get_even_valued_list([2, 1, 3, 4, 6])
         assert len(lst) == 2
